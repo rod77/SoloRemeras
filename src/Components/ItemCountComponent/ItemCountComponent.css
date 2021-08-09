@@ -1,0 +1,89 @@
+.bt__cart {
+  margin-top: 5px;
+  height: 40px;
+  width: 190px;
+  background-color: #09ae85;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+
+.bt__cart:hover {
+  background-color: rgb(6, 126, 96);
+}
+
+.bt__cart:active {
+  background-color: rgb(5, 101, 77);
+}
+
+.itemCount {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.itemCount__action {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 190px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(180, 180, 180);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0px;
+}
+
+.itemCount__rest {
+  height: 25px;
+  width: 25px;
+  font-size: 20px;
+  border: none;
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+.itemCount__rest:active {
+  background-color: #229acd;
+}
+
+.itemCount__result {
+  margin: 0px;
+  font-size: 20px;
+  padding: 0px;
+}
+
+.itemCount__add {
+  height: 25px;
+  width: 25px;
+  font-size: 20px;
+  border: none;
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+.itemCount__add:active {
+  background-color: #229acd;
+}
+
+.bt__cart--inv {
+  margin-top: 5px;
+  height: 40px;
+  width: 190px;
+  background-color: rgb(5, 101, 77);
+  color: rgb(180, 180, 180);
+  border: none;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  .itemCount {
+    align-items: center;
+  }
+}

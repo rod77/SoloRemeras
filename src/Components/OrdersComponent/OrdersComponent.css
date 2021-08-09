@@ -1,0 +1,30 @@
+.order__data {
+  color: #5a5a5a;
+  font-size: 42px;
+  font-weight: 100;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.order__thank--name {
+  color: #5a5a5a;
+  font-size: 25px;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.data__b {
+  font-weight: 500;
+}
+
+.order__hr {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.order__thank {
+  color: #5a5a5a;
+  font-size: 25px;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-left: 100px;
+}

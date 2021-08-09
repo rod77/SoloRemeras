@@ -1,0 +1,34 @@
+.cart__title {
+  color: #5a5a5a;
+  font-size: 42px;
+  font-weight: 100;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.pagNotFound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pagNotFound--img {
+  height: 500px;
+  width: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .cart__title {
+    color: #5a5a5a;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .pagNotFound--img {
+    height: 300px;
+    width: auto;
+  }
+}
