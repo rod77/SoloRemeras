@@ -16,9 +16,7 @@ const [product,setProduct] = useState()
 useEffect(() => {   
     
     setProduct(context.items.find(item => item.id === idProducto))
-    setUpdateStock(1)
-    console.log("Cart in context:")
-    console.log(context.cart)    
+    setUpdateStock(1)  
 }, [updateStock,context,idProducto])
 
 const selectBt = (seleccion)=>{
@@ -34,8 +32,7 @@ const selectImg = (seleccion,pos)=>{
 const onAdd=(quantity)=>{
     if(talle===undefined)
         {setAdv__talle(1)}
-    else{
-        console.log("por aca")                 
+    else{              
         context.updateStock(idProducto,quantity)  
         context.addCart(idProducto,quantity)  
         setUpdateStock(0)

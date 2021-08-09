@@ -10,8 +10,6 @@ export const OrdersComponent = () => {
 
     useEffect(() => {
         setOrder(context.order)
-        console.log(order)
-        console.log()
      }, [context])
 
     return(

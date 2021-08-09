@@ -69,8 +69,7 @@ const cancel = () =>{
 }
 
 const pay = (e) => {
- 
-    console.log(buyer)
+  
      const db = getFirestore();
      const comprasCollection = db.collection('compras');//seteo coleccion
 
